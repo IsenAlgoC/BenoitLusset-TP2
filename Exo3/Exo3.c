@@ -18,4 +18,9 @@ int main() {
 	}
 	else { printf("\nAnnee non bissextile\n"); }
 
+	if (annee % 4 == 0 && ((annee % 100 != 0) || annee % 400 == 0)) {
+		printf("\nAnnee bissextile\n");
+	}
+	else{ printf("\nAnnee non bissextile\n"); }
+
 }
